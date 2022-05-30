@@ -49,7 +49,7 @@
   padding: 0px;
 }
 
-.section-item,
+.section__item,
 .section-description {
   list-style: none;
 }
@@ -112,7 +112,7 @@
 }
 
 /* Task list */
-.section-item {
+.section__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -121,34 +121,34 @@
   align-items: center;
 }
 
-.section-item .tool-input,
-.section-item .section-item__pointer,
-.section-item .tool-btn {
+.tool-input,
+.section__item .section__pointer,
+.tool-btn {
   vertical-align: middle;
 }
 
-.section-item > .task-done {
+.task-done {
   margin: 0 10px;
 }
 
-.section-item > .section-item__pointer {
+.section__pointer {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.section-item > .task-field {
+.section__item .task-field {
   width: 226px;
 }
 
-.tool-btn.task-delete .delete-icon {
+ .delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.tool-btn.task-delete .delete-icon:hover {
+.delete-icon:hover {
   transform: rotateZ(0);
 }
 
@@ -159,15 +159,15 @@
 }
 
 /* Edit Task */
-.section .section-item .task-field {
+.section .task-field {
   display: none;
 }
 
-.section .section-item.section-control__item .task-field {
+.section-control__item .task-field {
   display: inline-block;
   width: 224px;
 }
 
-.section .section-item.section-control__item .pointer {
+.section-control__item .pointer {
   display: none;
 }
