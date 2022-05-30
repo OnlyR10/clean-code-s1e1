@@ -10,49 +10,49 @@
         charset="utf-8">
 </head>
 
-<body>
-  <div class="logo"> <!-- aaa -->
-    <img src="./eisenhower-matrix.jpg">
-    <a class="more_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a> <!-- more_inf -->
+<body class="body">
+  <div class="logo">
+    <img src="./eisenhower-matrix.jpg" class="logo__img">
+    <a class="more_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
-  <div class="work-plan"> <!-- centered-main-page-element -->
-    <p id="block-description"> <!-- topSectionForAddingElementToList -->
-      <label for="new-task">Add Item</label>
-      <div class="section-add">  <!-- task-row-wrapper -->
-        <input id="new-task" class="task" type="text">
-        <button>Add</button>
+  <div class="work-plan">
+    <p class="block-description">
+      <label for="new-task" class="pointer block-description__pointer">Add Item</label>
+      <div class="section-add">
+        <input id="new-task" class="task task-field tool" type="text">
+        <button class="tool-button">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
-    <ul id="section-control">
-      <li>
-        <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="task-edit">Edit</button>
-        <button class="task-delete">
-          <img src="./remove.svg">
+    <h3 class="section-description">Todo</h3>
+    <ul id="section-control" class="section">
+      <li class="section-item">
+        <input type="checkbox" class="task-done tool-input">
+        <label class="task pointer section-item__pointer">Pay Bills</label>
+        <input type="text" class="task task-field tool-input">
+        <button class="task-edit tool-button">Edit</button>
+        <button class="task-delete tool-button">
+          <img src="./remove.svg"  class="delete-icon">
         </button>
       </li>
-      <li class="section-control__item">
-        <input type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
-        <button class="task-edit">Save</button>
-        <button class="task-delete">
-          <img src="./remove.svg">
+      <li class="section-item section-control__item">
+        <input type="checkbox" class="task-done tool-input">
+        <label class="task pointer section-item__pointer">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="task task-field tool-input">
+        <button class="task-edit tool-button">Save</button>
+        <button class="task-delete tool-button">
+          <img src="./remove.svg" class="delete-icon">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="section-complete">
-      <li>
-        <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="task-edit">Edit</button>
-        <button class="task-delete">
-          <img src="./remove.svg">
+    <h3 class="section-description">Completed</h3>
+    <ul id="section-complete" class="section">
+      <li class="section-item">
+        <input type="checkbox" class="task-done tool-input" checked>
+        <label class="task pointer section-item__pointer section-complete__pointer">See the Doctor</label>
+        <input type="text" class="task task-field tool-input">
+        <button class="task-edit tool-button">Edit</button>
+        <button class="task-delete tool-button">
+          <img src="./remove.svg" class="delete-icon">
         </button>
       </li>
     </ul>
