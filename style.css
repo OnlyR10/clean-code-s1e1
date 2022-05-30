@@ -74,8 +74,7 @@
 }
 
 /* Heading */
-.section-description,
-.block-description__pointer {
+.section-description {
   color: #333;
   font-weight: 700;
   font-size: 15px;
