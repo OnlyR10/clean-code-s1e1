@@ -5,30 +5,30 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.logo { /* aaa */
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.logo img { /* aaa img */
   width: 100%;
 }
 
-.aaa .more_inf {
+.logo .more_inf { /* aaa .more_inf */
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .logo { /* aaa */
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.work-plan { /* centered-main-page-element */
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,11 +40,11 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section-add { /* task-row-wrapper */
   display: flex;
 }
 
-ul {
+ul { /* ul */
   margin: 0;
   padding: 0px;
 }
@@ -141,32 +141,32 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+button.task-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.task-delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#section-complete label { /* ul#completed-tasks label */
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type=text] { /* aaa li input[type=text] */
   display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.section-control__item input[type=text] { /* aaa li.editMode input[type=text] */
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.section-control__item label { /* aaa li.editMode label */
   display: none;
 }
