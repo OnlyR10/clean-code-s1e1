@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.logo .more_inf {
+.logo .more__info {
   font-family: fantasy, cursive;
 }
 
@@ -55,11 +55,11 @@
 }
 
 .tool-input,
-.tool-button {
+.tool-btn {
   outline: none;
 }
 
-.tool-button {
+.tool-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -69,7 +69,7 @@
   cursor: pointer;
 }
 
-.tool-button:hover {
+.tool-btn:hover {
   color: #3a3A3a;
 }
 
@@ -124,7 +124,7 @@
 
 .section-item .tool-input,
 .section-item .section-item__pointer,
-.section-item .tool-button {
+.section-item .tool-btn {
   vertical-align: middle;
 }
 
@@ -143,13 +143,13 @@
   width: 226px;
 }
 
-.tool-button.task-delete .delete-icon {
+.tool-btn.task-delete .delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.tool-button.task-delete .delete-icon:hover {
+.tool-btn.task-delete .delete-icon:hover {
   transform: rotateZ(0);
 }
 
